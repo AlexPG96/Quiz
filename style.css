@@ -1,0 +1,75 @@
+:root {
+    --color-main-dark: #0D0C1D;
+    --color-secondary-main-darky: #161B33;
+    --color-secondary-main-not-too-much-dark: #474973;
+    --color-secondary-main-definitly-not-too-much-dark: #A69CAC;
+    --color-secondary-main-definitly-not-dark: #F1DAC4;
+    --font-desing: 'Shadows Into Light', cursive;
+    --size-xs: 5px;
+    --size-s: 8px;
+    --size-m: 13px;
+    --size-l: 21px;
+    --size-xl: 34px;
+    --size-xxl: 55px;
+    --size-is-not-too-much: 89px;
+    --size-is-too-much: 144px;
+}
+
+body {
+    background-color: var(--color-secondary-main-not-too-much-dark);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+form {
+    background-color: var(--color-secondary-main-definitly-not-too-much-dark);
+
+}
+
+fieldset {
+    background-color: var(--color-secondary-main-darky);
+}
+
+h1 {
+    color: var(--color-main-dark);
+    font-size: var(--size-xxl);
+    text-align: center;
+}
+
+h2 {
+    color: var(--color-secondary-main-definitly-not-too-much-dark); 
+    font-size: var(--size-xl);
+    text-align: center;
+       
+}
+
+h3 {
+    color: var(--color-secondary-main-definitly-not-too-much-dark);
+    font-size: var(--size-l);
+    text-align: center;
+    
+}
+
+#1a {
+    font-size: var(--size-xxl);
+}
+
+
+
+fieldset {
+    display: flex;
+    text-align: center;
+}
+
+label {
+    color: var(--color-secondary-main-darky);
+    padding: var(--size-m);
+    margin: var(--size-m);
+    background-color: var(--color-secondary-main-definitly-not-too-much-dark);
+}
+
+  input[type=checkbox]:checked{
+    display: block;
+  }
+
+
