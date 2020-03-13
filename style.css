@@ -14,7 +14,7 @@
     --size-is-not-too-much: 89px;
     --size-is-too-much: 144px;
 }
-
+/*
 body {
     background-color: var(--color-secondary-main-not-too-much-dark);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -50,7 +50,7 @@ h3 {
     
 }
 
-/*
+
 #1a {
     font-size: var(--size-xxl);
 }
