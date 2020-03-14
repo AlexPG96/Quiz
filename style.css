@@ -5,6 +5,7 @@
     --color-secondary-main-definitly-not-too-much-dark: #A69CAC;
     --color-secondary-main-definitly-not-dark: #F1DAC4;
     --font-desing: 'Shadows Into Light', cursive;
+    --size-xxs: 2px;
     --size-xs: 5px;
     --size-s: 8px;
     --size-m: 13px;
@@ -14,52 +15,36 @@
     --size-is-not-too-much: 89px;
     --size-is-too-much: 144px;
 }
-/*
+
+* {
+    font-family: var(--font-desing);
+    font-size: var(--size-l);
+}
+
 body {
     background-color: var(--color-secondary-main-not-too-much-dark);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-
-form {
-    background-color: var(--color-secondary-main-definitly-not-too-much-dark);
-
-}
-
-fieldset {
-    background-color: var(--color-secondary-main-darky);
 }
 
 h1 {
     color: var(--color-main-dark);
     font-size: var(--size-xxl);
     text-align: center;
+    background-color: var(--color-secondary-main-definitly-not-too-much-dark);
+    border-radius: var(--size-l);
 }
 
 h2 {
-    color: var(--color-secondary-main-definitly-not-too-much-dark); 
-    font-size: var(--size-xl);
-    text-align: center;
-       
-}
-
-h3 {
     color: var(--color-secondary-main-definitly-not-too-much-dark);
-    font-size: var(--size-l);
-    text-align: center;
-    
+    font-size: var(--size-xl);
 }
-
-
-#1a {
-    font-size: var(--size-xxl);
-}
-
-
 
 fieldset {
     display: flex;
     text-align: center;
+    border-radius: var(--size-l);
+    background-color: var(--color-secondary-main-darky);
+    margin-top: var(--size-m);
+    margin-bottom: var(--size-m);
 }
 
 label {
@@ -67,10 +52,21 @@ label {
     padding: var(--size-m);
     margin: var(--size-m);
     background-color: var(--color-secondary-main-definitly-not-too-much-dark);
+    cursor: pointer;
 }
 
-  input[type=checkbox]:checked{
-    display: block;
-  }
+label:hover {
+    background-color: var(--color-secondary-main-not-too-much-dark);
+    color: var(--color-secondary-main-definitly-not-dark);
+}
 
-*/
+input {
+    display: none;
+}
+
+input:checked + label{
+    background-color: var(--color-secondary-main-not-too-much-dark);
+    color: var(--color-secondary-main-definitly-not-dark);
+    border: var(--size-xxs) solid var(--color-secondary-main-definitly-not-too-much-dark);
+    border-radius: var(--size-s);
+}

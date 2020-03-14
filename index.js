@@ -1,158 +1,188 @@
 const pregunta1 = {
-    legend: '¿Qué tipos de texto podemos usar en programación?',
+    legend: '¿Qué raza de gato es la más grande del mundo?',
     answers: [{
-            label: 'PascalCase',
-            id: 'pascal-case',
-            name: 'letras',
-            value: 'pascal case'
+            label: 'GatoComún',
+            id: 'gatocomun',
+            name: 'gato',
+            value: 'gatocomun'
         },
         {
-            label: 'camelCase',
-            id: 'camel-case',
-            name: 'letras',
-            value: 'camel case'
+            label: 'GatoPersa',
+            id: 'gatopersa',
+            name: 'gato',
+            value: 'gatopersa'
         },
         {
-            label: 'kebab-case',
-            id: 'kebab-case',
-            name: 'letras',
-            value: 'kebab case'
+            label: 'MaineCoon',
+            id: 'mainecoon',
+            name: 'gato',
+            value: 'mainecoon'
         },
         {
-            label: 'snake_case',
-            id: 'snake-case',
-            name: 'letras',
-            value: 'snake case'
+            label: 'Sphynx',
+            id: 'sphynx',
+            name: 'gato',
+            value: 'sphynx'
         }
-    ]
+    ],
+    respuestaCorrecta: {
+        label: 'MaineCoon',
+        id: 'mainecoon',
+        name: 'gato',
+        value: 'mainecoon'
+    }
 }
 
 const pregunta2 = {
-    legend: '¿Cual es la etiqueta para juntar un archivo de css en html?',
+    legend: '¿Qué robot aparece en Star-Wars?',
     answers: [{
-            label: 'htmlcss',
-            id: 'htmlcss',
-            name: 'archivo',
-            value: 'htmlcss'
+            label: 'Wall-E',
+            id: 'wall-e',
+            name: 'robots',
+            value: 'walle'
         },
         {
-            label: 'htmlcss',
-            id: 'htmlcss',
-            name: 'archivo',
-            value: 'htmlcss'
+            label: 'R2D9',
+            id: 'R2D9',
+            name: 'robots',
+            value: 'R2D9'
         },
         {
-            label: 'linkrel',
-            id: 'linkrel',
-            name: 'archivo',
-            value: 'linkrel'
+            label: 'C3PP',
+            id: 'C3PP',
+            name: 'robots',
+            value: 'C3PP'
         },
         {
-            label: 'linkrelhtmlcss',
-            id: 'linkrelhtmlcss',
-            name: 'archivo',
-            value: 'linkrelhtmlcss'
+            label: 'BB-8',
+            id: 'BB-8',
+            name: 'robots',
+            value: 'BB-8'
         }
-    ]
+    ],
+    respuestaCorrecta: {
+        label: 'BB-8',
+        id: 'BB-8',
+        name: 'robots',
+        value: 'BB-8'
+    }
 }
 
 const pregunta3 = {
-    legend: '¿Una pregunta más?',
+    legend: '¿Cuál es el icono caracteristico de Mac?',
     answers: [{
-            label: 'Pepito 1',
-            id: 'Respuesta 1',
-            name: 'pregunta3',
-            value: 'pepito'
+            label: 'Pepinillo',
+            id: 'Pepinillo',
+            name: 'mac',
+            value: 'pepinillo'
         },
         {
-            label: 'manolito 2',
-            id: 'Respuesta 2',
-            name: 'pregunta3',
-            value: 'manolito'
+            label: 'Helado',
+            id: 'Helado',
+            name: 'mac',
+            value: 'Helado'
         },
         {
-            label: 'pedrito 3',
-            id: 'Respuesta 3',
-            name: 'pregunta3',
-            value: 'pedrito'
+            label: 'Manzana',
+            id: 'Manzana',
+            name: 'mac',
+            value: 'Manzana'
         },
         {
-            label: 'lokito 4',
-            id: 'Respuesta 4',
-            name: 'pregunta3',
-            value: 'lokito'
+            label: 'Higo',
+            id: 'Higo',
+            name: 'mac',
+            value: 'Higo'
         }
-    ]
+    ],
+    respuestaCorrecta: {
+        label: 'Manzana',
+        id: 'Manzana',
+        name: 'mac',
+        value: 'Manzana' 
+    }
 }
 
 const pregunta4 = {
-    legend: '¿Otra pregunta más?',
+    legend: '¿Cual de estos lugares es un escenario en The Lord Of The Rings?',
     answers: [{
-            label: 'Respuesta 1',
-            id: 'Respuesta 1',
-            name: 'pregunta4',
-            value: 'Respuesta 1'
+            label: 'Cuevas de Babba-Jagga',
+            id: 'Cuevas-de-Babba-Jagga',
+            name: 'escenario',
+            value: 'Cuevas de Babba Jagga'
         },
         {
-            label: 'Respuesta 2',
-            id: 'Respuesta 2',
-            name: 'pregunta4',
-            value: 'Respuesta 2'
+            label: 'Tomelloso',
+            id: 'Tomelloso',
+            name: 'escenario',
+            value: 'Tomelloso'
         },
         {
-            label: 'Respuesta 3',
-            id: 'Respuesta 3',
-            name: 'pregunta4',
-            value: 'Respuesta 3'
+            label: 'Minas de Moria',
+            id: 'Minas-de-Moria',
+            name: 'escenario',
+            value: 'Minas de Moria'
         },
         {
-            label: 'Respuesta 4',
-            id: 'Respuesta 4',
-            name: 'pregunta4',
-            value: 'Respuesta 4'
+            label: 'Segovia',
+            id: 'Segovia',
+            name: 'escenario',
+            value: 'Segovia'
         }
-    ]
+    ],
+    respuestaCorrecta: {
+        label: 'Minas de Moria',
+        id: 'Minas-de-Moria',
+        name: 'escenario',
+        value: 'Minas de Moria'
+    }
 }
 
 const pregunta5 = {
-    legend: '¿Otra pregunta más2?',
+    legend: '¿Cuál es el bucle favorito de Moracho?',
     answers: [{
-            label: 'Respuesta 1',
-            id: 'Respuesta 1',
-            name: 'pregunta5',
-            value: 'Respuesta 1'
+            label: 'For Dios',
+            id: 'for-dios',
+            name: 'bucle',
+            value: 'for dios'
         },
         {
-            label: 'Respuesta 2',
-            id: 'Respuesta 2',
-            name: 'pregunta5',
-            value: 'Respuesta 2'
+            label: 'While LoL',
+            id: 'while-lol',
+            name: 'bucle',
+            value: 'while LoL'
         },
         {
-            label: 'Respuesta 3',
-            id: 'Respuesta 3',
-            name: 'pregunta5',
-            value: 'Respuesta 3'
+            label: 'For',
+            id: 'for',
+            name: 'bucle',
+            value: 'for'
         },
         {
-            label: 'Respuesta 4',
-            id: 'Respuesta 4',
-            name: 'pregunta5',
-            value: 'Respuesta 4'
+            label: '.map',
+            id: 'map',
+            name: 'bucle',
+            value: 'map'
         }
-    ]
+    ],
+    respuestaCorrecta: {
+        label: '.map',
+        id: 'map',
+        name: 'bucle',
+        value: 'map'
+    }
 }
 
 
 const imprimeLegend = (pregunta) => {
-    return `<legend>${pregunta.legend}</legend>`
+    return `<h2>${pregunta.legend}</h2>`
 }
 
 const imprimeRespuesta = (pregunta) => {
     const {label, id, name, value} = pregunta
     return `
+        <input type="radio" name="${name}" id="${id}" value="${value}">
         <label for="${id}">${label}</label>
-        <input type="checkbox" name="${name}" id="${id}" value="${value}">
     `
 }
 
@@ -177,6 +207,17 @@ const botonFormulario = () => `<button>Enviar</button>`
 const gestionaEnvio = (event) => {
     event.preventDefault()
 }
+
+/*
+    const comprobaciónCorrecta = ("input[type=radio]:checked").value();
+
+    if(comprobaciónCorrecta == respuestaCorrecta){
+        alert("Enhorabuena!");
+    }else{
+        alert("Intentalo de nuevo!")
+    }
+*/
+
 const $form = document.getElementsByTagName('form')[0]
 const boton = botonFormulario()
 $form.innerHTML = cuestionarioCompleto + boton
