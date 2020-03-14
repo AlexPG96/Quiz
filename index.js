@@ -205,18 +205,16 @@ const cuestionario = [pregunta1, pregunta2, pregunta3, pregunta4, pregunta5]
 const cuestionarioCompleto = cuestionario.map(imprimePregunta).join('')
 const botonFormulario = () => `<button>Enviar</button>`
 const gestionaEnvio = (event) => {
-    event.preventDefault()
+    if(cuestionarioCompleto.value == respuestaCorrecta.value){
+        //event.preventDefault();
+        console.log("funciona el if de gestionaEnvio");
+    }else{
+        // alert("Intentalo de nuevo!");
+        console.log("no funciona el if de gestionaEnvio");
+    }
 }
 
-/*
-    const comprobaciónCorrecta = ("input[type=radio]:checked").value();
-
-    if(comprobaciónCorrecta == respuestaCorrecta){
-        alert("Enhorabuena!");
-    }else{
-        alert("Intentalo de nuevo!")
-    }
-*/
+    
 
 const $form = document.getElementsByTagName('form')[0]
 const boton = botonFormulario()
